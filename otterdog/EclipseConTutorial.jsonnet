@@ -78,7 +78,6 @@ orgs.newOrg('EclipseConTutorial') {
       template_repository: "EclipseConTutorial/test-repo-template",
       web_commit_signoff_required: false,
       workflows+: {
-        default_workflow_permissions: "write",
       },
     },
     orgs.newRepo('test-repo-mu') {
